@@ -1,0 +1,85 @@
+<!doctype html>
+<html  lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Découverte des formulaires</title>
+  </head>
+
+  <body>
+
+    <h1>TP 7</h1>
+
+    <h2>Exercice 1 : début sur les formulaires </h2>
+    <ul>
+      <li> Reprendre le fichier de base (squelette d'une page HTML) et y inclure un
+      titre de niveau 1.</li>
+      <li> Créer un formulaire dont l'action sera l'envoi par mail à votre adresse
+	e l'université par la méthode <code>post</code>.
+      <li> Créer un première groupe de titre <em>Candidat</em> qui permet la saisie
+	des données suivantes :
+	<ul>
+	  <li>le nom (dans une zone de saisie de 30 caractères maximum),</li>
+	  <li>le prénom (idem),</li>
+	  <li>un numéro de téléphone (10 caractères),</li>
+	  <li>une adresse e-mail (dans une zone de saisie de 20 caractères). </li>
+	</ul>
+      </li>
+      <li> Ajouter deux autres groupes constitués de boutons radio.
+	<ul>
+	  <li>Le premier concerne le diplôme le plus élévé obtenu (BTS, DUT,
+	    Licence Pro.,Licence, Master, Doctorat).</li>
+	  <li>Le second indique la zone géographique où habite la candidat
+	    (Nord, Est, Sud-Est, Ouest, Sud-Ouest, Ile de France et Centre).</li>
+	</ul>
+      </li>
+      <li> Ajouter deux groupes de cases à cocher permettant de saisir les langues
+	parlées par le candidat pour l'un et les langages informatiques maîtrisés
+	pour l'autre.
+      </li>
+      <li> Ajouter une liste de sélection permettant de saisir le poste désiré
+	par le candidat (on suppose que trois postes sont offerts au recrutement :
+	webmestre, développpeur web et administrateur réseau).</li>
+      <li> Ajouter deux boutons qui permettent de réinitialiser et d'envoyer
+	le formulaire.</li>
+    </ul>
+    
+    <h2> Exercice 2 :  les nouveautés HTML5</h2>
+    <p> Cet exercice modifie/complète l'exercice précédent. Vous repartez donc du
+      formulaire créé pour l'exercice 1.</p>
+    <ul>
+      <li>Lire le dernier transparent du cours et trouver le tutoriel dédié.</li>
+      <li>Modifier le type dans la zone de saisie du numéro de téléphone.</li>
+      <li>Essayer avec plusieurs valeurs. Y-a-t-il une vérification côté navigateur ?</li>
+      <li>À quoi sert alors l'indication donnée par le type ?</li>
+      <li>Ajouter une zone de saisie de type url.</li>
+      <li>Essayer la saisie de différents types d'url (http, mail, ftp). Y-a-t-il
+	vérification côté client ?</li>
+      <li>Modifier le type dans la zone de saisie de l'adresse e-mail.</li>
+      <li>Essayer avec plusieurs valeurs. Y-a-t-il une vérification côté navigateur ?</li>
+      <li>Ajouter dans le premier cadre de saisie une zone <code>date</code> pour saisir
+	la date de naisance du candidat.</li>
+      <li>Essayer de rentrer des dates de naissance correctes et incorrectes.
+	Y-a-t-il une vérification effectuée par le navigateur ?</li>
+      <li>À quoi sert alors l'indication donnée par le type ?</li>
+      </ul>
+
+    <h2>Exercice 3 : un nouvel élément</h2>
+    <p>Cet exercice complète l'exercice précédent. Vous repartez donc de votre
+      formulaire précédemment créé dans lequel vous commencerez par créer deux
+      nouveaux groupes de saisie.</p>
+    <ul>
+      <li>Ajouter dans le premier groupe un champ de type <code>number</code>
+	dont les valeurs sont incrémentés de 5 en 5 entre 10 et 50. La valeur
+	affichée par défaut sera 30.</li>
+      <li>Ajouter la saisie de deux nombres entiers <code>val1</code> et
+	<code>val2</code>.</li>
+      <li>Ajouter un élément <code>output</code> qui va calculer le produit des
+	deux valeurs précédentes lorsque le formulaire sera envoyé.</li>
+      <li>Ajouter dans la balise <code>form</code> l'attribut
+	<code>onSubmit</code> avec la valeur nécessaire pour le calcul.</li>
+      <li>Tester avec différentes valeurs que le calcul s'effectue bien lors de
+	l'envoi du formulaire.</li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+Exercice 1
+Notions de référence relative, absolue et mixte
+
+Quelle formule est contenue dans C2 ? Quelle formule est contenue en C3 ? En C4 ?
+En C2 : =B2*24
+C3 : =B3*24
+C4 : =B4*24
+
+
+En D2, saisissez la formule
+=24*$B$2. Étendez le contenu de la cellule jusqu’en D13. Que se passe-t-il ?
+Apres éxécution de la formule, on retoure 744 pour tout les mois , comme c'est la cellule B2, qui sert de base
+
+Saisissez par exemple
+=$B15 en D15, et effectuez une copie de cette cellule dans toutes celles qui l’avoisinent. Que se
+passe-t-il ?
+On à également 365

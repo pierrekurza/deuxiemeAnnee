@@ -1,0 +1,26 @@
+ul#menuHorizontal li {
+	display: inline;
+	padding: 0 0.5em;
+	
+}
+
+ul#menuHorizontal {
+	list-style-type: none;
+	color : yellow;
+}
+
+#divisionDeux {
+	color: deeppink;
+	font-size: small;
+}
+
+body {
+	background-image: url(wallhaven-160276.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+ p {
+	 padding-left: 40px;
+ }

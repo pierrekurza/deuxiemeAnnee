@@ -1,0 +1,72 @@
+
+Mise en forme d'un texte
+
+La structure d'un document, vue par le logiciel de traitement de textes est la suivante : Caractères, Paragraphes, Sections, Document. Chaque propr
+iété de mise en forme s'applique à un de ces niveaux.
+Dans les documents, les changements de paragraphe sont maqués par le caractère non imprimable . Pour revenir à la ligne sans changer de paragraphe sélectionner le choix Saut de ligne dans le menu Insertion / Saut manuel (ou utiliser le raccourci Shift + Entrée). Pour créer une nouvelle section il faut sélectionner Section... dans le menu Insertion
+Voici les principales mises en forme utilisées dans les traitements de texte, classées par niveaux :
+
+Attributs de paragraphe :
+Tous ces attributs sont accessibles dans les différents onglets du menu Format/Paragraphe (ou à travers différents outils de la barre d'Outils)
+Retrait à gauche (avant le texte)
+Retrait de première ligne 
+Retrait à droite (après le texte)
+Justifications 
+Interligne 
+Tabulations
+Trame de fond (Arrière Plan)
+
+Attributs de caractère : 
+menu Format/Caractère
+Police de caractère
+Taille des caractères
+Styles (gras, italique,...etc.)
+Couleur
+Casse (Majuscule,...)
+Indice, Exposant, Relief,...
+
+Attributs de section :
+menu Format/Page
+Paramètres de la page : orientation (portrait/paysage), taille du papier, marges, etc
+Entêtes et pieds de page
+Colonne
+
+
+Styles
+
+A chaque style correspond un ensemble de mises en forme de paragraphe et/ou de caractère. On peut associer un style à tout élément d'un document. Modifier le style permet alors de changer la mise en forme de tous les éléments correspondants.
+Grâce à la fenêtre générée par Format/Style_et_formatage, on peut affecter un style à un élément, ajouter de nouveaux styles, redéfinir des styles existants, etc
+En outre, les styles servent de base pour la création des tables des matières. La table des matières se définit à travers les onglets du menu Insertion/Index_et_tables.
+     
+
+     
+QUELQUES ATTRIBUTS DE CARACTÈRE ACCESSIBLES DANS LE MENU FORMAT/CARACTÈRE ONGLET POLICE
+Attribut
+Effet
+Police de caractère (ou <<Fonte>>) 
+Il s'agit du dessin de chaque caractère imprimable. En effet, la même lettre <<a>> peut être dessinée de façon très différente : a , a , ?, a ... L'ensemble des caractères (lettres, chiffres et symboles divers) dessinés selon un même style graphique est appelée une <<police de caractères>>. Pour l'identifier, chaque police a reçu un nom (par exemple : Garamont, Times  Symbol ou Wide Latin).
+Taille des caractères
+La taille des caractères est classiquement mesurée en <<nombre de points>>. La hauteur standard est de 12 pts. Plus ce chiffre est augmenté plus les caractères sont grands ; plus il est diminué (de façon raisonnable jusqu'à 7 pts), plus les caractères sont petits.
+Styles
+Il est possible d'appliquer aux caractères des styles de présentation différents :
+écriture en gras
+écriture en italique
+écriture soulignée
+écriture en exposant
+écriture en indice
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+

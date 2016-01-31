@@ -1,0 +1,54 @@
+%% Diapositive de titre
+% Titre
+Ce qui nous facilite la vie
+% Auteurs
+Auteurs
+Groupe
+% Date
+Date
+
+% image1 à insérer quelque part
+
+%% Plan
+
+%% Organisation
+Répartition du travail
+    Contenu : à 2
+    Structure HTML : bibi
+    CSS : fricotin
+
+Échange du code
+	via github
+
+Écriture du rapport et du diaporama
+	 via Framapad
+
+
+%% Planning
+Semaines 1 et 2 : choix du design et récolte des informations
+Semaine 3 : réalisation de la version 0
+Semaine 4 : mise en commun et débuggage
+Semaine 5 : réalisation de la version finale
+Semaine 6 : finalisation du rapport
+Semaine 7 : préparation de la soutenance
+
+%% Design
+Choix du design
+% insérer l'image site.png
+
+%% Présentation du code
+% insérer l'image code.png
+
+%% Difficultés rencontrées
+Compréhension du code
+Cohésion de l’ensemble du projet
+Compatibilité des navigateurs
+Temps insuffisant
+
+%% Conclusion
+Ce qu'on a appris :
+       s'organiser pour travailler à 2
+       se mettre sur le projet dès le début
+       approfondir les notions vues en cours
+
+Satisfaction d'avoir réussi un site qui répond au cahier des charges

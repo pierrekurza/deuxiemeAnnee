@@ -1,0 +1,24 @@
+tr:nth-of-type(even)
+{
+	background: lightblue;
+}
+
+tr:nth-of-type(odd)
+{
+	background: deepskyblue;
+}
+
+th {
+	background-color : white;
+}
+
+td {
+	border-style: inset;
+	border-color : yellow;
+	border-width: thin;
+}
+
+
+body {
+	background-color: slategray;
+}

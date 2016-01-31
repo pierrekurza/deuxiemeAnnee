@@ -1,0 +1,31 @@
+body{
+    color:#3B0B2C;
+}
+
+[class*="jumbotron"]{
+    background-color: #CEDC55;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[class*="footer"]{
+    background-color: #FFB73E;
+    padding:10px;
+    border-radius:5pt;
+}
+
+[class*="jumbotron"] a{
+    color: #FD3A8A;
+}
+
+.nav{
+    float: right;
+}
+
+[class*="navbar"] a {
+    color: #31BFA6;
+}
+
+[class*="navbar"] a:hover{
+    color: #3B0B2C;
+}

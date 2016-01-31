@@ -1,0 +1,86 @@
+Donner la commande qui permet d’afficher les fichiers ayant
+les caractéristiques suivantes :
+
+
+1. un nom commençant et finissant par un f .
+
+ls [f]*[f]
+
+2. un nom commençant par f et finissant par a ou b.
+
+ls [f]*{a,b}
+
+3. un nom commençant par f et ne finissant ni par a ni par b.
+
+ls [f]*[^ab]
+
+4. un nom de trois caractères.
+
+ls ???
+
+5. un nom de trois caractères commençant par a,b ou c.
+
+ls [abc]*
+
+6. un nom avec une extension de trois lettres.
+
+ls *.[a-zA-Z][a-zA-Z][a-zA-Z]
+
+7. un nom commençant par un chiffre.
+
+ls [0-9]*
+
+8. un nom commençant par abc ou def .
+
+ls {abc,def}*
+
+9. un nom ayant a en première ou deuxième position.
+
+ls [a,?a*]
+
+
+
+Vous prendrez soin de vérifier les résultats de vos recherches en utilisant l’option -ls.
+1. Recherchez à partir de votre répertoire de login les fichiers réguliers dont le nom commence par la
+chaîne TP.
+
+find -name "TP*"
+
+2. Recherchez à partir de votre répertoire de login les répertoires dont le nom est TP.
+
+find -name "TP"
+
+3. Recherchez dans le répertoire /tmp de votre machine les fichiers qui vous appartiennent et sur
+lesquels vous avez les droits d’exécution.
+
+find /tmp -perm u=x
+
+4. Recherchez dans votre répertoire de travail tous les fichiers sur lesquels le groupe ou les autres
+utilisateurs ont le droit d’écriture.
+
+find . -perm -022
+
+5. Modifiez la dernière commande de façon à supprimer ces droits.
+
+
+
+6. Recherchez dans votre répertoire tous les fichiers créés depuis plus de 5 jours.
+
+find . -mtime +4
+
+7. Rechercher tous les fichiers sources de vos TP d’algorithmique (fichiers d’extension cc) que vous
+n’avez pas modifiés depuis un mois (30 jours).
+
+find -name "*.cpp" -mtime +30
+
+8. Recherchez tous les fichiers d’extension jpg de votre répertoire de travail et pour chacun d’entre eux
+proposez de l’effacer.
+
+find -name \("*.jpeg" -o "*.jpg"\) -ok rm '{}' \;
+
+9. Recherchez et effacez tous les fichiers  ̃ générés pas emacs de votre répertoire de travail.
+
+
+
+10. Recherchez dans votre répertoire de travail tous les fichiers occupant plus de 1 Mo et faites afficher
+les informations sur ces fichiers.

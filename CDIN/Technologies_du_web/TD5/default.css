@@ -1,0 +1,25 @@
+#menu{
+    background-color: #9DD93F;
+}
+
+#menu li ,a{
+    display: inline;
+    text-decoration: none;
+}
+
+#conteneur {
+    border-style: solid;
+    padding: 10px;
+    border-color: #637210;
+    background-color: white;
+}
+
+#titreHead {
+    
+}
+
+body {
+    background-color:#DDEEA8;
+    margin-left: 500px;
+    margin-right: 500px;
+}

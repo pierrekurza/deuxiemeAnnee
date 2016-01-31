@@ -1,0 +1,59 @@
+											Latex
+
+Convertir markdown en pdf (ce qui est entre crochets est pas obligatoire sauf si le fichier .beamer est présent)
+	-> pandoc --toc -t beamer -v theme:nomTheme [--template nomTemplate.beamer] fichier.markdown fichier.md nomSortieFichier.pdf
+
+
+											Markdown
+
+Les titres :
+	# -> h1
+	## -> h2 
+	.
+	..
+
+Mettre en gras :
+	**texteEnGras**
+
+Mettre en italique
+	*texteEnItalique*
+
+Si je veux mettre du gras + italique
+	**graaaaaaas _italique_ texteQuiSeraEnGras**
+
+liste non ordonnée
+	* Item
+	* Item
+	* Item
+
+Liste Ordonée
+	1. item_un
+	2. item_deux
+	3. item_trois
+
+mettre du code :
+	```
+	int val = 12;
+	```
+Ajouter un lien
+	[NomDuLien](www.google.fr)
+
+Image :
+	
+	TexteAuChoix:
+	![nomPourLeAlt](url_de_l_image.png)
+
+Tableau:
+
+	| Tables        | Are           | Cool  |
+	| ------------- |:-------------:| -----:|
+	| col 3 is      | right-aligned | $1600 |
+	| col 2 is      | centered      |   $12 |
+	| zebra stripes | are neat      |    $1 |
+
+Blockquotes:
+
+> texteQuOnVeutMettreEnBlockquote
+
+
+

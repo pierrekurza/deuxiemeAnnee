@@ -1,0 +1,12 @@
+.important {
+	font-size : 20px;
+	color : red;
+}
+.notImportant {
+	font-size : 10px;
+	color : blue;
+}
+
+#div1 -> h1{
+	text-decoration :center;
+}

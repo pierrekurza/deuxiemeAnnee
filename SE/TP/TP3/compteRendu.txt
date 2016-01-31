@@ -1,0 +1,38 @@
+Tester et expliquer les commandes suivantes :
+
+1- Créer un dossier test
+2- On se déplace dans test
+3- Dans le fichier toto, on écrit : "Bonjour toto"
+4- Le CAT sur le toto ne sera pas réalisé car le fichier "main.c" n'existe pas
+5- Il affiche en premier le nom du fichier et il affiche le contenu du fichier toto
+6- Il affichera le contenu de toto, car le fichier main.c n'existe pas
+7- Il affiche la premiere commande qui est vraie , il va afficher "toto" uniquement
+
+Programme process.sh
+La touche CTRL + Z suspend le programme en cours et le "fg" remets en marche ce dernier.
+
+bg 1 : Job not found
+jobs : il m'affiche le process.sh que j'ai suspendu
+fg 1 : job not found
+
+BG 1 && FG 1 ne marcheront pas car le programme est suspendu, donc on ne peut pas le mettre en premier plan ou arrière plan
+
+
+Question 4
+Le & sert à donner la main à l'utilisateur pour le terminal
+PS sert à lister les processus en cours
+GREP sert à rechercher des mots dans un ou plusieurs fichiers
+PID , c'est l'identifiant du processus qui est en cours
+TTY : C'est le type de terminal qui est utilisé , PTS , pour terminal graphique et TTY en mode console
+TIME : c'est le temps qui s'est écoulé depuis l'execution du programme
+CMD : le nom du programme qui à été lancé
+
+Question 5
+On utilise le "ps -l" pour obtenir le PPID des programmes lancés
+
+Question 6
+PSTREE affiche tout les programmes sous forme d'arbre avec les processus père et fils.
+Pour afficher les PID dans un pstree il faut ajouter l'option : "-p"
+
+Question 7
+pour rechercher les PID on fait un "jobs -p" puis un "kill -9 PID"

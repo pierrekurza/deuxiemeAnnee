@@ -1,0 +1,11 @@
+La commande interne: 
+commande "set" -> SHELLOPTS : 
+
+echo $SHELLOPTS 
+braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor
+
+
+set -f / ls * -> On ne peut pas accéder aux fichiers,
+set +f / ls * -> Elle liste tout les fichiers du home, et dossier par dossier
+
+

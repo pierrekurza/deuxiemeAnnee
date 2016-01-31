@@ -1,0 +1,20 @@
+ul#menuHorizontal li {
+	display: inline;
+	padding: 0 0.5em;
+}
+
+ul#menuHorizontal {
+	list-style-type: none;
+}
+
+#divisionDeux {
+	color: deeppink;
+	font-size: small;
+}
+body {
+	background-color: lightblue;
+}
+
+.classDeux {
+	
+}

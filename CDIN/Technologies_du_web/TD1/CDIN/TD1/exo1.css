@@ -1,0 +1,19 @@
+body {
+  background-color: #FF33CC;
+}
+
+h1, h2 {
+  text-align: center;
+  color: Yellow;
+  text-decoration: underline;
+}
+
+p {
+
+}
+
+.titreH2 {
+  text-align: center;
+  color: Green;
+  text-decoration: underline;
+}

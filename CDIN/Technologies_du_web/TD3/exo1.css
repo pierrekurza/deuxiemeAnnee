@@ -1,0 +1,27 @@
+body {
+	background-color: slategray;
+}
+tr:hover {
+	color : lightblue;
+	background-color: white;
+}
+
+td {
+	border-style: inset;
+	border-color : yellow;
+	border-width: thin;
+}
+
+.tableau {
+	border-style: groove;
+	border-width: 2px;
+	border-color : red;
+}
+
+.bleuClair {
+	background-color: lightblue;
+}
+
+.bleuFonce {
+	background-color: deepskyblue;
+}

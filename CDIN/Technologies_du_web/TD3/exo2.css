@@ -1,0 +1,28 @@
+legend {
+	color : darkorange;
+}
+
+/*
+td {
+	border-style : solid;
+}
+*/
+
+
+.table {
+	background-color: red;
+	border-color: red;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: red;
+	border : 0.5px solid red;
+}
+
+td {
+	border-style: solid;
+	border-width: thin;
+	border-spacing: 0px;
+	border-color: red;
+}

@@ -1,0 +1,13 @@
+body {
+	background-color : rgb(155,244,15);
+}
+
+dt{
+	font-weight : bold;
+	color : #12911E
+}
+
+dd {
+	font-style : italic;
+	color : rgb(255,52,227);
+}
