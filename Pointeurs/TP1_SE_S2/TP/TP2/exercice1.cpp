@@ -5,6 +5,8 @@ struct Etudiant {
     int numEtudiant;
     int ageEt;
     float moyenne;
+    Etudiant *suivant;
+
 };
 
 void afficherEtudiantStatique(Etudiant etu)
@@ -30,6 +32,27 @@ void swapEtudiants(Etudiant *un, Etudiant *deux)
     *un = *deux;
     *deux = *tmp;
     delete tmp;
+}
+
+void ajouterEtudiant(Etudiant **listeEtu, int numEtud, int age, float moy)
+{
+    Etudiant *nouvelEtu = new Etudiant;
+    nouvelEtu->numEtudiant = numEtud;
+    nouvelEtu->ageEt =age;
+    nouvelEtu->moyenne = moy;
+    nouvelEtu->suivant = *listeEtu;
+    *listeEtu = nouvelEtu;
+}
+
+void afficherEtudiant(Etudiant *listeEtu)
+{
+    while(listeEtu != nullptr)
+    {
+        cout << "Numéro étudiant : " << listeEtu -> numEtudiant << endl;
+        cout << "Age : " << listeEtu->ageEt << endl;
+        cout << "Moyenne : " << listeEtu->moyenne << endl;
+        listeEtu = listeEtu->suivant;
+    }
 }
 
 int main()
@@ -69,5 +92,11 @@ int main()
     delete pauline;
     delete laure;
     delete valentin;
+
+    Etudiant *pointTete = nullptr;
+    ajouterEtudiant(&pointTete,125455,27,13.54);
+    ajouterEtudiant(&pointTete,132155,44,12.99);
+    ajouterEtudiant(&pointTete, 4464646, 22, 17.01);
+    afficherEtudiant(pointTete);
 
 }
