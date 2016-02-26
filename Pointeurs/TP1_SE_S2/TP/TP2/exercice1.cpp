@@ -6,7 +6,6 @@ struct Etudiant {
     int ageEt;
     float moyenne;
     Etudiant *suivant;
-
 };
 
 void afficherEtudiantStatique(Etudiant etu)
