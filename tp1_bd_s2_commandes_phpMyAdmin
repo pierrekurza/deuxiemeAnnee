@@ -1,0 +1,46 @@
+INSERT INTO voisin VALUES (1,2);
+INSERT INTO voisin VALUES (1,3);
+INSERT INTO voisin VALUES (1,5);
+INSERT INTO voisin VALUES (2,1);
+INSERT INTO voisin VALUES (2,5);
+INSERT INTO voisin VALUES (3,1);
+INSERT INTO voisin VALUES (3,4);
+INSERT INTO voisin VALUES (4,3);
+INSERT INTO voisin VALUES (5,1);
+INSERT INTO voisin VALUES (5,2);
+
+
+
+
+insert into riviere values (1,"Le Rhône",812, NULL, 1);
+insert into riviere values (2,"Hérault",148, NULL ,1);
+insert into riviere values (3,"Isère",286, 1, NULL);
+insert into riviere values (4,"Durance",324,1 ,NULL);
+insert into riviere values (5,"Seine",777, NULL ,3);
+insert into riviere values (6,"Eure",228, 5 ,NULL);
+insert into riviere values (7,"Verdon",175, 4 ,NULL);
+insert into riviere values (8,"Nil",6500, NULL ,1);
+
+
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+insert into ville values ();
+
+insert into ville values (1,"Paris",2200000);
+insert into ville values (2, "Lyon",500000);
+insert into ville values (3,"Avignon",);
+insert into ville values (4,"Genève");
+insert into ville values (5,"Grenoble");
+insert into ville values (6,"Rouen");
+insert into ville values (7,"Albertville");
+insert into ville values (8,"Berne");
+insert into ville values (9,"Zurich");
+insert into ville values (10,"Arles");
+
